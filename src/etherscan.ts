@@ -166,6 +166,15 @@ export async function submitSources(
       case '10':
         host = 'https://api-optimistic.etherscan.io';
         break;
+      case '14':
+          host = 'https://flare-explorer.flare.network/api';
+          break;
+      case '16':
+          host = 'https://coston-explorer.flare.network/api';
+          break;
+      case '19':
+          host = 'https://songbird-explorer.flare.network/api';
+          break;
       case '42':
         host = 'https://api-kovan.etherscan.io';
         break;
@@ -183,6 +192,9 @@ export async function submitSources(
         break;
       case '77':
         host = 'https://blockscout.com/poa/sokol';
+        break;
+      case '114':
+        host = 'https://coston2-explorer.flare.network/api';
         break;
       case '128':
         host = 'https://api.hecoinfo.com';
